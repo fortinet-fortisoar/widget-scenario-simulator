@@ -29,7 +29,8 @@
             "Breach and Attack Simulation (BAS)"
         ],
         "standalone": true,
-        "windowClass": "Half Width"
+        "windowClass": "Half Width",
+        "help_online":"https://gitlab-van.corp.fortinet.com/fortisoar/widgets/widget-scenario-simulator/-/blob/release/1.0.0/README.md"
     },
     "development": false
 }

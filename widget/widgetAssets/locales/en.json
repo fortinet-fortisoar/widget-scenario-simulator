@@ -3,6 +3,7 @@
         "BTN_RESET_SCENARIO": "Reset Scenario",
         "BTN_RUN_SCENARIO": "Run Scenario",
         "DESC_SIMULATE_SCENARIO": "Choose a scenario to simulate. The simulator generates realistic security events, alerts, and attacker activity that mimic real-world incidents, allowing you to safely test detection, investigation, and response workflows.",
+        "ERROR_PERMISSION":"You can’t access this widget because you don’t have permission. Kindly Contact your administrator for assistance.",
         "LABEL_ITEM": "Item",
         "LABEL_RESETTING" : "Resetting",
         "LABEL_SIMULATE_SCENARIO": "Scenario Simulator",

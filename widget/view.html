@@ -2,7 +2,21 @@
   MIT License
   Copyright (c) 2026 Fortinet Inc
   Copyright end -->
-<div class="widget widget-container chart simulateContainer full-vertical-height {{currentTheme}}">
+<div data-ng-if="!scenarioPermissions.read">
+    <div class="padding-xlg">
+        <div class="alert alert-info margin-bottom-0 margin-right-md">
+            <div class="pull-left font-size-18 margin-top-sm width-30px">
+                <i class="fa fa-exclamation-circle"></i>
+            </div>
+            <div class="pull-left width-95 margin-top-8">
+                <p class="font-size-14 margin-bottom-0">{{ :: 'scenarioSimulator.ERROR_PERMISSION' | translate }}
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="widget widget-container chart simulateContainer full-vertical-height {{currentTheme}}"  data-ng-if="scenarioPermissions.read">
     <div class="padding-lg mainContainer">
         <div>
             <label class="titleHeader">{{ :: 'scenarioSimulator.LABEL_SIMULATE_SCENARIO' | translate }}</label>
@@ -54,7 +68,7 @@
                                 <span>{{tags}}</span>
                             </span>
                         </div>
-                        <div>
+                        <div data-ng-if="scenarioPermissions.execute && scenarioPermissions.update && playbookPermission.execute">
                             <button class="btn btn-sm {{ actionPlaybooks[scenario.createdAlertsID ? 'resetScenario' : 'runScenario'].btnClass }}" type="button" data-ng-if="!scenario.running"
                                 data-ng-click="triggerScenario(scenario,$index)">
                                 <i class="{{ actionPlaybooks[scenario.createdAlertsID ? 'resetScenario' : 'runScenario'].icon }}"></i> <span> {{ actionPlaybooks[scenario.createdAlertsID ? 'resetScenario' : 'runScenario'].name }} </span>

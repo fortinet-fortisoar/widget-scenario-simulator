@@ -3,6 +3,7 @@
     "BTN_RESET_SCENARIO": "시나리오 재설정",
     "BTN_RUN_SCENARIO": "시나리오 실행",
     "DESC_SIMULATE_SCENARIO": "시뮬레이션할 시나리오를 선택하세요. 시뮬레이터는 실제 보안 사고를 모방한 현실적인 보안 이벤트, 경고 및 공격자 활동을 생성하여 탐지, 조사 및 대응 워크플로를 안전하게 테스트할 수 있도록 합니다.",
+    "ERROR_PERMISSION":"권한이 없어 이 위젯에 액세스할 수 없습니다. 도움이 필요하면 관리자에게 문의하세요.",  
     "LABEL_ITEM": "항목",
     "LABEL_RESETTING": "재설정 중",
     "LABEL_SIMULATE_SCENARIO": "시나리오 시뮬레이터",
