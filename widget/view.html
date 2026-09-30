@@ -16,7 +16,7 @@
         </div>
     </div>
 </div>
-<div class="widget widget-container chart simulateContainer full-vertical-height {{currentTheme}}"  data-ng-if="scenarioPermissions.read">
+<div class="widget widget-container chart simulateContainer full-vertical-height" ng-class="$root.theme.id + '_scenarioSimulator'" data-ng-if="scenarioPermissions.read">
     <div class="padding-lg mainContainer">
         <div>
             <label class="titleHeader">{{ :: 'scenarioSimulator.LABEL_SIMULATE_SCENARIO' | translate }}</label>

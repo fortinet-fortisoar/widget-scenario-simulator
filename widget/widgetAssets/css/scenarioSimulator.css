@@ -4,11 +4,11 @@
   Copyright end */
 
 .dark_scenarioSimulator, .steel_scenarioSimulator {
-    --container-bg : #1A2136;
+    --container-bg : #1b2430;
     --container-box-shadow : #00000070;
     --icon-card-bg: #323B47;
     --icon-border: #1A2136;
-    --card-desc-bg: #252F3C;
+    --card-desc-bg: #FFFFFF0A;
     --card-divider: #000;
     --chip-bg: #25A5AE99;
     --desc-text-color : #fff;
@@ -20,7 +20,7 @@
     --container-box-shadow : #00000070;
     --icon-card-bg: #FFFFFF0A;
     --icon-border: #1A2136;
-    --card-desc-bg: #252F3C;
+    --card-desc-bg: #FFFFFF0A;
     --card-divider: #000;
     --chip-bg: #3C6DB799;
     --desc-text-color : #fff;
@@ -32,8 +32,8 @@
     --container-box-shadow : #d7d6d670; 
     --icon-card-bg: #FAFAFA;
     --icon-border: #D9DDE1;
-    --card-desc-bg: #FAFAFA;
-    --card-divider: #ebebeb;
+    --card-desc-bg: #f2f2f2;
+    --card-divider: #c7c6c6;
     --chip-bg:#4676b2; /* #659AEB; */
     --desc-text-color : #000;
     --view-more-text: #25A5AE99;

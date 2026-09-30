@@ -22,7 +22,6 @@
       const payload = {
         sort: [{ field: 'createDate', direction: 'DESC' }],
         logic: 'AND',
-        limit: ALL_RECORDS_SIZE,
         filters: [],
         __selectFields: ['title', 'description', 'createdAlertsID', 'recordTags', 'icon']
       };
@@ -44,7 +43,7 @@
           ]
         });
       }
-      return $http.post(API.QUERY + module, payload);
+      return $http.post(API.QUERY + module + `?$limit=${ALL_RECORDS_SIZE}` , payload);
     }
 
     function getPlaybook(playbookIRI, module) {
