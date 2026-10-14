@@ -9,9 +9,9 @@
     .module('cybersponse')
     .factory('scenarioSimulatorService', scenarioSimulatorService);
 
-  scenarioSimulatorService.$inject = ['$http', 'API', 'playbookService', '$q', 'ALL_RECORDS_SIZE'];
+  scenarioSimulatorService.$inject = ['$http', 'API', 'playbookService', '$q', 'ALL_RECORDS_SIZE', '$filter'];
 
-  function scenarioSimulatorService($http, API, playbookService, $q, ALL_RECORDS_SIZE) {
+  function scenarioSimulatorService($http, API, playbookService, $q, ALL_RECORDS_SIZE, $filter) {
     var service;
     service = {
       fetchData: fetchData,
