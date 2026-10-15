@@ -30,7 +30,7 @@
         ],
         "standalone": true,
         "windowClass": "Half Width",
-        "help_online":"https://gitlab-van.corp.fortinet.com/fortisoar/widgets/widget-scenario-simulator/-/blob/release/1.0.0/README.md"
+        "help_online":"https://github.com/fortinet-fortisoar/widget-scenario-simulator/blob/release/1.0.0/README.md"
     },
     "development": false
 }
